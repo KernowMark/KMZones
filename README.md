@@ -1,6 +1,6 @@
-# Zone Display Script
+# KMZones - Zone Display Script
 
-This script displays a text notification on the top right of the game screen indicating whether the player is in a "Green Zone" or "Amber Zone". The text fades in and out smoothly and is styled using Bootstrap and custom CSS.
+This script displays a text notification on the top right of the game screen indicating whether the player is in a "Green Zone", "Amber Zone" or "Red Zone". The text is styled using Bootstrap and custom CSS.
 
 ## Author
 Created by KernowMark | ItsMeerken
@@ -10,9 +10,9 @@ Created by KernowMark | ItsMeerken
 
 ## Features
 - Displays "Green Zone" or "Amber Zone" text based on the player's location.
-- Smooth fade-in and fade-out transitions.
 - Styled using Bootstrap and custom CSS.
 - Easy to add multiple zones.
+- This script is Standalone, and is compatible with ESX, QBCore, BJCore, TMC and any other frameworks.
 
 ## Installation
 1. Clone or download the repository.
