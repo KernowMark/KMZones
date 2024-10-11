@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: transparent;
+            font-family: 'Raleway', sans-serif;
+        }
+        #zoneText {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 13px;
+            color: white;
+            border-radius: 2px;
+            padding: 5px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .fade-in {
+            opacity: 1;
+        }
+        .badge-success {
+            background-color: #28a745;
+        }
+        .badge-warning {
+            background-color: #ffc107;
+        }
+        .badge-primary {
+            background-color: #007bff;
+        }
+        .badge-danger {
+            background-color: #dc3545;
+        }
+    </style>
+    <title>Zone Display</title>
+</head>
+<body>
+    <div id="zoneText" class="badge badge-pill badge-primary"></div>
+    <script src="script.js"></script>
+</body>
+</html>
