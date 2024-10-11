@@ -1,4 +1,4 @@
-# KMZones - Zone Display Script
+<img src="https://r2.fivemanage.com/pub/fqlhlu4yu4p3.png">
 
 This script displays a text notification on the top right of the game screen indicating whether the player is in a "Green Zone", "Amber Zone" or "Red Zone". The text is styled using Bootstrap and custom CSS.
 
